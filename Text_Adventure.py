@@ -1,7 +1,8 @@
-This is a text-driven adventure game. Players will choose a weapon and 
-and choose form different possible paths to arrive at one of three endings"""
+# This is a text-driven adventure game. Players will choose a weapon 
+# and choose form different possible paths to arrive at one of three endings.
 
-"""weapon_selection = ["sword", "stick", "knife", "fists"]
+#Various Menus
+weapon_selection = ["sword", "stick", "knife", "fists"]
 
 #Begin adventure
 
@@ -29,4 +30,5 @@ else:
   print("You must choose one of the given weapons.")
   print(weapon_selection)
   player_weapon_choice = input("Choose one...").lower() #How do I create a for loop if player chooses wrong?
+
 
